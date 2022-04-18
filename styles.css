@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@400;600;700;800&family=Noto+Serif+Display:wght@400;600;800&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: solid lightblu;
+}
+
+body{
+  background: linear-gradient(
+    to right,
+    #fd7e14 60%,
+    #3b7cff 40%
+    );
+}
+
+main{
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  max-width: 4000;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 00;
+  padding: 20px;
+  margin-top: 10px;
+  border-bottom: groov white;
+}
+
+nav h1{
+font-size: 50px;
+margin-left: 50px;
+margin-right: 50px;
+font-family: italic;
+font-weight: 600;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li {
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.end{
+  margin-right: 50px;
+}
+
+.contenedor{
+  display: flex;
+  margin-top: 100px;
+}
+.contenido{
+  max-width: 700px;
+  max-height: 650px;
+  margin-left: 50px;
+}
+
+.contenido img{
+  width: 900px;
+}
+
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  text-align: inherit;
+  margin-left: 50px;
+}
+
+.info h1{
+  text-align: inherit;
+  font-size: 90px;
+}
+
+.info p{
+  margin-top: 35px;
+  font-size: 16px;
+}
+
+.info button{
+  margin-top: 40px;
+  max-width: 150px;
+  height: 60px;
+  background-color: #0532f0;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+}
+
+button:hover{
+  background-color: #051e8f;
+}
+button{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
